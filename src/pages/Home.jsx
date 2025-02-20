@@ -3,6 +3,8 @@ import { fetchMachineStatuses } from "../api";
 import MachineStatus from "../components/MachineStatus.jsx";
 import TopBar from "../components/TopBar.jsx";
 import backgroundImage from "../assets/watson-hall.jpg";
+import linkedinLogo from "../assets/linkedin-logo.png";
+
 
 const Home = () => {
   const [machines, setMachines] = useState([]);
@@ -53,7 +55,21 @@ const Home = () => {
           )}
         </div>
       </div>
+
+      <div className="footer">
+        <p>SpaceOna &copy; 2025</p>
+        <a 
+          href="https://www.linkedin.com/company/spaceona" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img src={linkedinLogo} alt="LinkedIn" className="linkedin-logo" />
+        </a>
+      </div>
     </div>
+
+
+
   );
 };
 
