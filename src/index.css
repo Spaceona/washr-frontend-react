@@ -103,6 +103,30 @@ body {
   color: #333;
 }
 
+/* Feedback Button Container */
+.feedback-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Feedback Button Styling */
+.feedback-button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14 px;
+  font-weight: 450;
+  color: #333;
+  background-color: #b5bdde; 
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.feedback-button:hover {
+  background-color: #abb5db; /* Darker blue on hover */
+}
+
 /* Background Image for Machine List */
 .machine-list-container {
   position: relative;

@@ -18,6 +18,18 @@ const TopBar = () => {
       <div className="hall-tab">
         <h2>Watson Hall</h2>
       </div>
+
+      <div className="feedback-button-container">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeE6jASHVK9Xxn7aEagl7Mo8hJW4L-nIWfh8BaQ8iQ6IozGOQ/viewform?fbzx=-8777276868041223699"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="feedback-button"
+        >
+          Provide Feedback / Report Issue
+        </a>
+      </div>
+
     </div>
   );
 };

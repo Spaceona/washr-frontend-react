@@ -57,12 +57,13 @@ const Home = () => {
       </div>
 
       <div className="footer">
-        <p>SpaceOna &copy; 2025</p>
+        <p>SpaceOna &copy; 2025 | </p>
+        <p> Contact Us:</p>
         <a 
           href="https://www.linkedin.com/company/spaceona" 
           target="_blank" 
           rel="noopener noreferrer"
-        >
+        > 
           <img src={linkedinLogo} alt="LinkedIn" className="linkedin-logo" />
         </a>
       </div>
